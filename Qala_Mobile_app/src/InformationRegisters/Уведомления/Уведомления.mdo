@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6884492-6726-42c2-af23-96d951b46da4">
+  <producedTypes>
+    <selectionType typeId="0c951327-d795-42e8-b023-a1a929530a0b" valueTypeId="127c9bcb-8a7f-4d55-840a-391fd2ae50bd"/>
+    <listType typeId="5e1119ec-a863-43a8-9c25-fa2ef6dcf170" valueTypeId="1305475f-b74b-428a-a30a-9a8e1a577700"/>
+    <managerType typeId="5b9c2116-72fa-4bc1-a4b9-944886d205b9" valueTypeId="173fd10c-db49-4c3a-bd5b-e2bc31a217dd"/>
+    <recordSetType typeId="c29191e1-7f04-4e2a-96b6-ba15d711d742" valueTypeId="210b78e1-0d76-4eca-931a-fb83dff3d146"/>
+    <recordKeyType typeId="7213ea3e-c2fa-4161-8230-5fdc0ebd6a4d" valueTypeId="1907eb0e-7ac5-4f66-81d7-2edc1c119017"/>
+    <recordType typeId="f7146faf-2975-406d-960e-a11a43930a35" valueTypeId="c337e448-2d1d-4965-8867-6749d7ed8014"/>
+    <recordManagerType typeId="0575af9e-f613-44fd-bc71-dd3112606fa1" valueTypeId="a4191ceb-8a22-4006-91d7-4cbc45229bae"/>
+  </producedTypes>
+  <name>Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="68143aa5-f83d-4e6c-80a4-1dc8df0825f4">
+    <name>Показан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показан</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="1f53cc56-e598-4c01-8e7c-10d92267d662">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

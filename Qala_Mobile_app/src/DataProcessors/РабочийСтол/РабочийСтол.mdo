@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7204c140-01d3-4770-bfe1-6b0aa325039b">
+  <producedTypes>
+    <objectType typeId="1ad805ca-fa15-4aa0-805b-ce5e8ad44108" valueTypeId="709e015b-9104-469e-ac26-1e9aad8d40ad"/>
+    <managerType typeId="4f4fa5da-1516-40b5-831e-1659c42d400c" valueTypeId="9c64eb5c-5bbd-4361-8c67-0a766f3a724b"/>
+  </producedTypes>
+  <name>РабочийСтол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочийСтол.Form.Форма</defaultForm>
+  <forms uuid="6c095125-8395-4c63-92bb-a2b485dc4ef4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6ad2b92b-6642-4d79-aaa5-1a978c55491a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

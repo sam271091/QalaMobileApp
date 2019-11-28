@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1672e12e-eb44-4ba1-83b8-15bed0c4465a">
+  <producedTypes>
+    <objectType typeId="d0d40c65-4fec-4223-a214-08ccf6b7c9cd" valueTypeId="1f950a3a-0b3b-4347-b0f9-32c14ab7634d"/>
+    <refType typeId="953bc708-1cf2-4705-9f51-f5dedbcb3d21" valueTypeId="36e0e181-848d-4c54-9fc7-812f70c606ab"/>
+    <selectionType typeId="692a50c1-99da-4eff-bb49-1f6b090059ad" valueTypeId="8eef137a-f137-40e0-892c-ac9c09a4d1a6"/>
+    <listType typeId="a005211a-f5b5-445f-a727-6119abf7ce81" valueTypeId="2f5f160d-18a9-4399-80a2-ee4afc6bc59d"/>
+    <managerType typeId="3f064710-b229-4a80-8b9a-3547811633cf" valueTypeId="69aef861-40f9-4330-9d28-3bce1987ab03"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="9afabd81-afa5-4595-88e7-85b581fc1399">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

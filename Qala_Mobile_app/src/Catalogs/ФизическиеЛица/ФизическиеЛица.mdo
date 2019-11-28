@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48530733-6fe6-4a93-935f-1edb2f708567">
+  <producedTypes>
+    <objectType typeId="7f76d7ca-9137-4a10-a6cf-2b4b78ebe82b" valueTypeId="78781ae5-f0f6-44e2-a3b9-5080261da21c"/>
+    <refType typeId="3e804ef2-d081-4a0e-bc80-16e72657fed4" valueTypeId="bb53deaf-37f7-47f9-927f-076be8d41e91"/>
+    <selectionType typeId="f1aec2d4-0234-46a1-a62a-5faf6071c1b1" valueTypeId="7d97ef2e-5a98-46b2-aab7-a4b3370dfc0a"/>
+    <listType typeId="95de1e9e-913d-43e4-b7bc-0bc6d0689043" valueTypeId="811f2d71-b39b-4b8e-855c-bf59b7aa6047"/>
+    <managerType typeId="1db11590-ee95-4733-a0a2-f61e946a5755" valueTypeId="fa1bb36a-bb60-4897-b0d3-f7eb6b123d5e"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ФизическиеЛица.Form.ФормаСписка</defaultListForm>
+  <forms uuid="c54568fc-ee79-4204-9c2f-5a8a8cc99940">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

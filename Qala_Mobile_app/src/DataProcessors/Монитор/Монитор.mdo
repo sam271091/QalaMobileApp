@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22608c9e-b4f5-4319-8b4c-8f3bc2833d69">
+  <producedTypes>
+    <objectType typeId="a17d22bd-89ec-41fc-af7f-f3a3d056badd" valueTypeId="e40d1d97-5b97-4d6d-8f9f-fcbc8b890340"/>
+    <managerType typeId="8c87d4ae-f3d5-483c-a905-9c98ab75d829" valueTypeId="51c4eaa6-7ee0-4293-851e-7790539fb61d"/>
+  </producedTypes>
+  <name>Монитор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Монитор.Form.Форма</defaultForm>
+  <attributes uuid="358fd657-e78e-4cc4-908c-0810015eecbf">
+    <name>ОтчетЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32d2124a-06ca-4bf6-879f-0a6f7b7c0b1c">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7407b193-8cac-40ab-b356-95a5bb21d245">
+    <name>НастройкаЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b5c159ee-c90a-4248-af96-5281ef8f5d41">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55437743-19b3-41b7-bef4-1301ecc1c414">
+    <name>ФормаУвеличенная</name>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

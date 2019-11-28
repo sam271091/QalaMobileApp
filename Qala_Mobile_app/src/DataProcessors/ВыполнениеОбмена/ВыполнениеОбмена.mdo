@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2479d18d-cdd5-418b-a43e-389f6915513f">
+  <producedTypes>
+    <objectType typeId="ac93372d-be6d-476e-baa0-636da2314f99" valueTypeId="fc50fa39-14fc-4a4e-9cea-3d01a071043a"/>
+    <managerType typeId="bde920e3-1db2-46a0-a5dd-e649fbbc8a06" valueTypeId="b667ef0e-095f-4e53-bae5-918027e1b60f"/>
+  </producedTypes>
+  <name>ВыполнениеОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение обмена</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыполнениеОбмена.Form.Форма</defaultForm>
+  <attributes uuid="39868cfb-3a96-4a6e-a2db-d2d05d6498bb">
+    <name>ВидОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="63580c53-c003-4fce-bd33-49534110a01e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

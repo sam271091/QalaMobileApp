@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5620fdfb-0822-457d-9d35-87baf3ae4484">
+  <name>РасшифровкаПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка платежа</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

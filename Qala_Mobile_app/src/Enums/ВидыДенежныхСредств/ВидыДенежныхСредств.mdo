@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="881c7169-7930-433e-85d7-0012d331ef51">
+  <producedTypes>
+    <refType typeId="b7dae916-9a4b-4b38-bd37-3b43cd2b230a" valueTypeId="eb18d6e2-2b3b-405a-81d6-6c8206e847e7"/>
+    <listType typeId="2920e6e2-b6a3-468b-a915-7a62cf1b3c61" valueTypeId="90dc680d-06bf-46bf-aa52-77834b0f4d80"/>
+    <managerType typeId="230c8a8c-960c-4ffe-a12c-98eb5c38eb48" valueTypeId="538c9da1-5235-4ca0-ab24-a71007086aa0"/>
+  </producedTypes>
+  <name>ВидыДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды денежных средств</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Pul vəsaitlərinin növü</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ccf91760-be70-4f94-b234-fc1677781a0d">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Nağd</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Nağd</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d7d9366d-cdd2-45e4-acd4-89608c421c7b">
+    <name>Безналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Nağdsız</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Nağdsız</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

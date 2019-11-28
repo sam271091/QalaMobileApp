@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1407b3dc-3678-40f8-8d54-9c0d6f62a1ff">
+  <name>QalaMobileApp</name>
+  <synonym>
+    <key>ru</key>
+    <value>Qala mobile app</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dfecd7fa-e323-4195-87ae-7f5a342adb64"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="588bdb82-5f1e-43d3-876a-77800e141128"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3f23b646-4403-4904-9672-c40976b04575"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="761994e0-cd02-4056-82e7-feb975d41640"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1606002b-f83a-4e1c-81fb-782614f6a260"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="07136669-ef43-43ba-8448-2bb625dda580"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="72f07658-30d6-42ae-b0aa-453ed95c59b6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <commonPictures>CommonPicture.Товары</commonPictures>
+  <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonPictures>CommonPicture.Подтверждение</commonPictures>
+  <commonPictures>CommonPicture.РасшифровкаПлатежа</commonPictures>
+  <commonPictures>CommonPicture.Лого</commonPictures>
+  <commonModules>CommonModule.Вспомогательный</commonModules>
+  <commonModules>CommonModule.МодульОбмена</commonModules>
+  <commonModules>CommonModule.PushКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <exchangePlans>ExchangePlan.МобОбмен</exchangePlans>
+  <commonCommands>CommonCommand.ВыполнитьЗагрузку</commonCommands>
+  <commonCommands>CommonCommand.ВыполнитьВыгрузку</commonCommands>
+  <commonCommands>CommonCommand.ВыполнитьОбмен</commonCommands>
+  <constants>Constant.Сервер</constants>
+  <constants>Constant.Порт</constants>
+  <constants>Constant.Пользователь</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.БазаДанных</constants>
+  <constants>Constant.WebСервис</constants>
+  <constants>Constant.IDКлиента</constants>
+  <constants>Constant.НастройкиЗаполнены</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <documents>Document.ВнутреннийЗаказ</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ЗаявкиНаРсходованиеСредств</documents>
+  <enums>Enum.ВидыДенежныхСредств</enums>
+  <enums>Enum.ВидыОбмена</enums>
+  <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
+  <dataProcessors>DataProcessor.Монитор</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеОбмена</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСНавигационнымиСсылками</dataProcessors>
+  <informationRegisters>InformationRegister.Уведомления</informationRegisters>
+</mdclass:Configuration>
